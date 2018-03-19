@@ -89,6 +89,10 @@ function setForceEnabled(enabled) {
   RNBugfender.setForceEnabled(enabled);
 }
 
+function setDeviceString(value, key) {
+  RNBugfender.setDeviceString(value, key);
+}
+
 export default {
   activateLogger,
   info,
@@ -98,5 +102,6 @@ export default {
   enableUIEventLogging,
   setMaximumLocalStorageSize,
   forceSendOnce,
-  setForceEnabled
+  setForceEnabled,
+  setDeviceString
 }
