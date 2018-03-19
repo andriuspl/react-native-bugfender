@@ -52,4 +52,8 @@ RCT_EXPORT_METHOD(setForceEnabled:(BOOL)enabled) {
     [Bugfender setForceEnabled: enabled];
 }
 
+RCT_EXPORT_METHOD(setDeviceString: (NSString*)value text:(NSString*)key) {
+    [Bugfender setDeviceString:value forKey:key];
+}
+
 @end
